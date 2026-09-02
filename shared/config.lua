@@ -7,17 +7,17 @@ exports('GetApartments', function() return ApartmentsTable end)
 Config = {}
 
 -- If you're not utilizing ox_lib, it's time to question your approach.
-Config.Target = "qb" -- "ox" or "qb"
-Config.Notify = "qb" -- "ox" or "qb"
-Config.Radial = "qb" -- "ox" or "qb"
-Config.Inventory = "qb" -- "ox" or "qb"
+Config.Target = "ox" -- "ox" or "qb"
+Config.Notify = "ox" -- "ox" or "qb"
+Config.Radial = "ox" -- "ox" or "qb"
+Config.Inventory = "ox" -- "ox" or "qb"
 Config.Logs = "qb" -- "qb"
 
 -- Anyone provided with keys to a property has the ability to modify its furnishings.
 Config.AccessCanEditFurniture = true
 
 -- Draw the poly for the property
-Config.DebugMode = true
+Config.DebugMode = false
 
 function Debug(...)
     if Config.DebugMode then
@@ -26,7 +26,7 @@ function Debug(...)
 end
 
 -- Log System
-Config.EnableLogs = true
+Config.EnableLogs = false
 
 -- Enables Dynamic Doors
 Config.DynamicDoors = false
