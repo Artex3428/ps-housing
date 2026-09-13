@@ -39,8 +39,8 @@ server_script {
 
 files {
   'html/**',
-  'stream/starter_shells_k4mb1.ytyp',
-  'stream/**.ytyp'
+  'stream_enhanced/starter_shells_k4mb1.ytyp',
+  'stream_enhanced/**.ytyp'
 }
 
 -- Fix for "stuck in black loading screen"
