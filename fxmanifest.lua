@@ -52,6 +52,6 @@ data_file 'DLC_ITYP_REQUEST' 'x64c:/levels/gta5/interiors/int_props/int_retail.r
 data_file 'DLC_ITYP_REQUEST' 'x64c:/levels/gta5/interiors/int_props/int_services.rpf/int_services.ytyp'
 
 data_file 'DLC_ITYP_REQUEST' 'starter_shells_k4mb1.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream_enhanced/**.ytyp'
 
 this_is_a_map 'yes'
